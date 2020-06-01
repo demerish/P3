@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding:0;
+  
+    } 
+
+body
+{
+    width:1500px;
+    margin:auto;
+}    
+
+
+
+$yellow: #FCCA46;
+$green: #569C87;
+$border:#6fa47e;
+
+
+header
+{
+    background-color: $green;
+    color: $yellow;
+    border-bottom: 2px solid $border;
+    text-align: center;
+    height:15rem;
+    font-size: 4rem;
+}

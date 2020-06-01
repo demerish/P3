@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1500px;
+  margin: auto;
+}
+
+header {
+  background-color: #569C87;
+  color: #FCCA46;
+  border-bottom: 2px solid #6fa47e;
+  text-align: center;
+  height: 15rem;
+  font-size: 4rem;
+}
+
+/*# sourceMappingURL=style.css.map */
