@@ -16,13 +16,83 @@ $yellow: #FCCA46;
 $green: #569C87;
 $border:#6fa47e;
 
+@mixin menu-form{
+    height:48rem;
+    width:34rem;
+    box-shadow:1px -2px 18px 0px lightgrey; 
+}
+
 
 header
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: $green;
     color: $yellow;
-    border-bottom: 2px solid $border;
-    text-align: center;
+    border-bottom: 3px solid $border;
     height:15rem;
+    font-size: 4rem;
+}
+
+main
+{
+    height:125rem;
+}
+
+.menu
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu1
+{
+   @include menu-form;
+    background-color: #fbdbdc;
+}
+
+.menu2
+{
+    @include menu-form;
+    background-color: #fcf3fb ;
+}
+
+.menu3
+{
+    @include menu-form;
+    background-color: #fbfbfc;
+}
+
+.menu4
+
+{
+    @include menu-form;
+    background-color: white;
+}
+
+
+
+.soon
+{
+    display: flex;
+    align-items: center;
+    background-color: $green;
+    color: $yellow;
+    font-size: 4rem;
+    width:42rem
+}
+
+
+
+footer
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:9rem;
+    background-color: $green;
+    color:$yellow;
     font-size: 4rem;
 }
